@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    background-color: cover;
+    
+}
+header{
+    background-color: #262626;
+    width: 1000px;
+    height: 800px;
+    padding-bottom: 5px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+header nav ul{
+
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a{
+    color: rgb(184, 173, 173);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    padding-top: 60px;
+}
+header nav ul li a:hover,
+header nav .active{
+    color: rgb(116, 30, 30);
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 30px;
+    padding: 10px;
+
+}
+header button{
+    padding: 10px 10px;
+    display: block;
+    color: white;
+    margin: 30px auto 50px;
+    background-color: rgb(207, 87, 87);
+    border-radius: 10px;
+    margin-bottom: 0 0 20px ;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 60px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+main{
+    width: 300px;
+}
+.down{
+    width: 700px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+
+
+}
+.down button{
+    width: 90px;
+    height: 25px;
+    background-color: rgb(175, 53, 53);
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    
+}
+.down h4{
+    margin: auto;
+    margin: 30px;
+    font-style: normal;
+  
+}
+.middle{
+
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 400px;
+    padding-bottom: 300px;
+
+}
+footer .foot{
+    text-align: center;
+    margin: auto;
+    background-color:#313131;
+    border: solid rgb(150, 150, 182);
+}
+.foot{
+    text-align-last: auto;
+}
+footer h5{
+    color: white;
+    font-weight: 100px;
+    padding-top: 20px;
+}
+footer img{
+    background-color: red;
+    padding: 10px;
+
+}
+footer h6{
+    color: #ffffff;
+    font-size: 20px;
+}
+footer .class{
+    color: rgb(233, 216, 216);
+    font-weight: 40px;
+}
+.last .first{
+    padding: auto;
+    text-align: center;
+    background-color: #262626;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        max-width: 100%;
+        background-size: cover;
+    }
+    header nav ul li a{
+        width: 100%;
+        color: green;
+        flex-wrap: wrap;
+    }
+    h1 {
+       font-size: 30px;
+    }
+    main {
+        width: 500px;
+        font-size: 20px;
+    }
+       
+}
